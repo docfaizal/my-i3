@@ -167,8 +167,8 @@ bindsym $mod+p focus parent
 
 
 ## App shortcuts
-bindsym $mod+w exec /usr/bin/brave	
-bindsym $mod+s exec /usr/bin/pcmanfm
+bindsym $mod+w exec brave
+bindsym $mod+s exec pcmanfm
 bindsym Print exec flameshot full --path ~/Pictures/screenshots
 bindsym $mod+Print exec flameshot gui --path ~/Pictures/screenshots
 
@@ -186,40 +186,40 @@ set $ws7 "7"
 set $ws8 "8"
 
 # bind program to workspace and focus to them on startup:
-assign [class="Alacritty"] $ws1
-assign [class="(?i)firefox"] $ws2
-assign [class="Anaconda-Navigator"] $ws2
-assign [class="Code"] $ws3
-assign [class="Pcmanfm"] $ws4
-assign [class="TelegramDesktop"] $ws5
-assign [class="Inkscape"] $ws6
-assign [class="Gimp"] $ws6
-assign [class="libreoffice-startcenter|Soffice"] $ws7
-assign [class="marktext"] $ws7
-assign [class="Lxappearance"] $ws8
-assign [class="stacer"] $ws8
-assign [class="Transmission"] $ws8
-assign [class="Yad"] $ws8
-assign [class="Gnome-disks"] $ws8
-assign [class="Nitrogen"] $ws8
+# assign [class="Alacritty"] $ws1
+# assign [class="(?i)firefox"] $ws2
+# assign [class="Anaconda-Navigator"] $ws2
+# assign [class="Code"] $ws3
+# assign [class="Pcmanfm"] $ws4
+# assign [class="TelegramDesktop"] $ws5
+# assign [class="Inkscape"] $ws6
+# assign [class="Gimp"] $ws6
+# assign [class="libreoffice-startcenter|Soffice"] $ws7
+# assign [class="marktext"] $ws7
+# assign [class="Lxappearance"] $ws8
+# assign [class="stacer"] $ws8
+# assign [class="Transmission"] $ws8
+# assign [class="Yad"] $ws8
+# assign [class="Gnome-disks"] $ws8
+# assign [class="Nitrogen"] $ws8
 
 # automatic set focus new window if it opens on another workspace then the current:
-for_window [class=Alacritty] focus
-for_window [class=firefox] focus
-for_window [class=Anaconda-Navigator] focus
-for_window [class=Code] focus
-for_window [class=Pcmanfm] focus
-for_window [class=TelegramDesktop] focus
-for_window [class=Inkscape] focus
-for_window [class=Gimp] focus
-for_window [class=libreoffice-startcenter|Soffice] focus
-for_window [class=marktext] focus
-for_window [class=Lxappearance] focus
-for_window [class=stacer] focus
-for_window [class=Transmission] focus
-for_window [class=Yad] focus
-for_window [class=Gnome-disks] focus
-for_window [class=Nitrogen] focus
+# for_window [class=Alacritty] focus
+# for_window [class=firefox] focus
+# for_window [class=Anaconda-Navigator] focus
+# for_window [class=Code] focus
+# for_window [class=Pcmanfm] focus
+# for_window [class=TelegramDesktop] focus
+# for_window [class=Inkscape] focus
+# for_window [class=Gimp] focus
+# for_window [class=libreoffice-startcenter|Soffice] focus
+# for_window [class=marktext] focus
+# for_window [class=Lxappearance] focus
+# for_window [class=stacer] focus
+# for_window [class=Transmission] focus
+# for_window [class=Yad] focus
+# for_window [class=Gnome-disks] focus
+# for_window [class=Nitrogen] focus
 
 #############################################
 # autostart applications/services on login: #
@@ -244,14 +244,14 @@ exec_always picom --config ~/.config/picom/picom.conf
 # exec --no-startup-id xset s 480 dpms 600 600 600
 
 # disable power saving (for example if using xscreensaver)
-exec_always xset -dpms
+# exec_always xset -dpms
 
 # Netowork Manager Applet
-bindsym $mod+Shift+n exec --no-startup-id nm-applet
+# bindsym $mod+Shift+n exec --no-startup-id nm-applet
 
 # Xrandr Commands
 # exec_always xrandr -s 1920x1080 -r 75
-exec_always xset s off
+# exec_always xset s off
 
 ##################
 # floating rules #
