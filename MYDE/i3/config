@@ -170,7 +170,7 @@ bindsym $mod+p focus parent
 bindsym $mod+w exec brave
 bindsym $mod+s exec pcmanfm
 bindsym Print exec flameshot full --path ~/Pictures/screenshots
-bindsym $mod+Print exec flameshot gui --path ~/Pictures/screenshots
+bindsym $mod+Print exec maim ~/Pictures
 
 ##########################################
 # configuration for workspace behaviour: #
