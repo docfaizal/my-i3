@@ -106,7 +106,7 @@ bindsym $mod+q kill
 bindsym $mod+x exec ~/.config/i3/scripts/powermenu
 
 # Lock the system
-bindsym $mod+Shift+x exec i3lock -i ~/Pictures/backgrounds/fogpine1.png
+bindsym $mod+Shift+x exec i3lock -i ~/Wallpapers/fogpine1.png
 
 # reload the configuration file
 bindsym $mod+Shift+c reload
